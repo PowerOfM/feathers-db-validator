@@ -1,0 +1,35 @@
+{
+  "name": "feathers-db-validator",
+  "version": "1.0.0",
+  "description": "FeathersJS service to validate data using JSON schemas",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "standard lib/* test/*",
+    "test": "npm run lint && mocha 'test/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PowerOfM/feathers-db-validator.git"
+  },
+  "keywords": [
+    "feathers",
+    "feathers-plugin",
+    "service"
+  ],
+  "author": "Mesbah Mowlavi <m@ionx.ca> (https://ionx.ca)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PowerOfM/feathers-db-validator/issues"
+  },
+  "homepage": "https://github.com/PowerOfM/feathers-db-validator#readme",
+  "dependencies": {
+    "@feathersjs/feathers": "^3.1.6",
+    "ajv": "^6.5.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1"
+  }
+}
