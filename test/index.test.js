@@ -1,6 +1,6 @@
 const { assert } = require('chai')
 const feathers = require('@feathersjs/feathers')
-const createService = require('../lib')
+const createService = require('../lib/index2')
 const testDB = require('./test-db')
 
 /* global describe, it */
