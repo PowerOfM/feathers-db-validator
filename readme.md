@@ -33,7 +33,7 @@ module.exports = function () {
 - **`app`** - FeathersJS app instance
 - **`db`** - FeathersJS database service wrapper (such as NeDB, MongoDB, or PostgreSQL)
 - `schema` - JSON schema to use for validation
-- `Model` - Passed to database service wrapper; if it has a `schema` property this is used instead of `schema`
+- `Model` - Passed to database service wrapper; if it has a `schema` property this is used instead of `options.schema`
 - `addTimestamps` - If true, db validator will add "createdAt" and "updatedAt" timestamps on create, patch and update as required. Customize the field names using the parameters below. (Default: false)
 - `fieldCreatedAt` - Name of the timestamp field set when models are created (default: "createdAt")
 - `fieldCreatedAt` - Name of the timestamp field set when models are updated or patched (default: "updatedAt")
